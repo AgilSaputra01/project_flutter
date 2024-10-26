@@ -142,17 +142,18 @@ class MyHome extends StatelessWidget {
             ),
           ),
           GestureDetector(
-              onTap: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => const Dimsum()));
-              },
-              child: ListTile(
-                title: Text("dimsum special"),
-                subtitle: Text("22 oktober 2024"),
-                leading: Image(
-                    image: NetworkImage(
-                        "https://th.bing.com/th/id/OIP.huLWj8mwz-URXAS7-L6vWwHaE7?w=1280&h=853&rs=1&pid=ImgDetMain")),
-              )),
+            onTap: () {
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => const Dimsum()));
+            },
+            child: ListTile(
+              title: Text("dimsum special"),
+              subtitle: Text("22 oktober 2024"),
+              leading: Image(
+                  image: NetworkImage(
+                      "https://th.bing.com/th/id/OIP.huLWj8mwz-URXAS7-L6vWwHaE7?w=1280&h=853&rs=1&pid=ImgDetMain")),
+            ),
+          ),
         ],
       ),
     );
