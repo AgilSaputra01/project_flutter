@@ -6,7 +6,7 @@ class Dimsum extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(title: Text("dimsum")),
+        appBar: AppBar(title: Text("Dimsum")),
         body: Column(
           children: [
             Image(

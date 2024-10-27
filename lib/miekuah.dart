@@ -6,7 +6,7 @@ class Miekuah extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(title: Text("mie kuah")),
+        appBar: AppBar(title: Text("Mie kuah")),
         body: Column(
           children: [
             Image(

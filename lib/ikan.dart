@@ -6,7 +6,7 @@ class Ikan extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(title: Text("ikan")),
+        appBar: AppBar(title: Text("Ikan")),
         body: Column(
           children: [
             Image(

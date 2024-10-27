@@ -6,7 +6,7 @@ class Bakso extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(title: Text("bakso")),
+        appBar: AppBar(title: Text("Bakso")),
         body: Column(
           children: [
             Image(

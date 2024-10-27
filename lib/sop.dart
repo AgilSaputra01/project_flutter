@@ -6,7 +6,7 @@ class Sop extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(title: Text("sop")),
+        appBar: AppBar(title: Text("Sop")),
         body: Column(
           children: [
             Image(

@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:helloworld/bakso.dart';
-import 'package:helloworld/dimsum.dart';
 import 'ayam.dart';
+import 'bakso.dart';
 import 'ikan.dart';
 import 'bebek.dart';
 import 'sop.dart';
@@ -56,7 +55,7 @@ class MyHome extends StatelessWidget {
                   MaterialPageRoute(builder: (context) => const Bebek()));
             },
             child: ListTile(
-              title: Text("bebek bakar special"),
+              title: Text("Bebek bakar special"),
               subtitle: Text("22 oktober 2024"),
               leading: Image(
                   image: NetworkImage(
@@ -69,7 +68,7 @@ class MyHome extends StatelessWidget {
                   MaterialPageRoute(builder: (context) => const Sop()));
             },
             child: ListTile(
-              title: Text("sop buntut special"),
+              title: Text("Sop buntut special"),
               subtitle: Text("22 oktober 2024"),
               leading: Image(
                   image: NetworkImage(
@@ -82,7 +81,7 @@ class MyHome extends StatelessWidget {
                   MaterialPageRoute(builder: (context) => const Nasgor()));
             },
             child: ListTile(
-              title: Text("nasi goreng special"),
+              title: Text("Nasi goreng special"),
               subtitle: Text("22 oktober 2024"),
               leading: Image(
                   image: NetworkImage(
@@ -95,7 +94,7 @@ class MyHome extends StatelessWidget {
                   MaterialPageRoute(builder: (context) => const Bakso()));
             },
             child: ListTile(
-              title: Text("bakso special"),
+              title: Text("Bakso special"),
               subtitle: Text("22 oktober 2024"),
               leading: Image(
                   image: NetworkImage(
@@ -108,7 +107,7 @@ class MyHome extends StatelessWidget {
                   MaterialPageRoute(builder: (context) => const Mieayam()));
             },
             child: ListTile(
-              title: Text("mie Ayam special"),
+              title: Text("Mie Ayam special"),
               subtitle: Text("22 oktober 2024"),
               leading: Image(
                   image: NetworkImage(
@@ -121,7 +120,7 @@ class MyHome extends StatelessWidget {
                   MaterialPageRoute(builder: (context) => const Miegoreng()));
             },
             child: ListTile(
-              title: Text("mie goreng special"),
+              title: Text("Mie goreng special"),
               subtitle: Text("22 oktober 2024"),
               leading: Image(
                   image: NetworkImage(
@@ -134,7 +133,7 @@ class MyHome extends StatelessWidget {
                   MaterialPageRoute(builder: (context) => const Miekuah()));
             },
             child: ListTile(
-              title: Text("mie kuah special"),
+              title: Text("Mie kuah special"),
               subtitle: Text("22 oktober 2024"),
               leading: Image(
                   image: NetworkImage(
@@ -147,7 +146,7 @@ class MyHome extends StatelessWidget {
                   MaterialPageRoute(builder: (context) => const Dimsum()));
             },
             child: ListTile(
-              title: Text("dimsum special"),
+              title: Text("Dimsum special"),
               subtitle: Text("22 oktober 2024"),
               leading: Image(
                   image: NetworkImage(

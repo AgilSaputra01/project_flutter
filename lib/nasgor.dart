@@ -6,7 +6,7 @@ class Nasgor extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(title: Text("nasgor")),
+        appBar: AppBar(title: Text("Nasgor")),
         body: Column(
           children: [
             Image(
