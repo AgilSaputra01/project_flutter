@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:helloworld/bottonNav.dart';
 
-import 'home.dart';
+import 'bottonNav.dart';
 
 // Entry point of the app
 void main() {
@@ -12,6 +13,6 @@ class Agil extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(home: const MyHome());
+    return MaterialApp(home: const BottonNav());
   }
 }
