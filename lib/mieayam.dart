@@ -13,7 +13,7 @@ class Mieayam extends StatelessWidget {
                 image: NetworkImage(
                     "https://th.bing.com/th/id/OIP.72LvtX9o8_Z6JDfkd-Fb7gAAAA?rs=1&pid=ImgDetMain")),
             Text("mie ayam special"),
-            Text("DESKRIPSI"),
+            Text("mie ayam paling enak sejagat raya"),
           ],
         ));
   }

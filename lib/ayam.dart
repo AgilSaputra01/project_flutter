@@ -13,7 +13,7 @@ class Ayam extends StatelessWidget {
                 image: NetworkImage(
                     "https://i.pinimg.com/originals/8e/50/c4/8e50c4a61dbdbf7c82657212e52965de.jpg")),
             Text("ayam bakar special"),
-            Text("DESKRIPSI"),
+            Text("ayam bakar paling enak sejagat raya"),
           ],
         ));
   }

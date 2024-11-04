@@ -13,7 +13,7 @@ class Sop extends StatelessWidget {
                 image: NetworkImage(
                     "https://th.bing.com/th/id/OIP.eFRKUZZlmxXuHJdfcekJQwHaEK?rs=1&pid=ImgDetMain")),
             Text("sop buntut special"),
-            Text("DESKRIPSI"),
+            Text("sop dengan varian banyak di jamin paling enak sejagat raya"),
           ],
         ));
   }

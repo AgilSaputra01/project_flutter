@@ -13,7 +13,7 @@ class Bakso extends StatelessWidget {
                 image: NetworkImage(
                     "https://th.bing.com/th/id/OIP.r-ItVYIOt3PbR46UA72AzAHaE8?rs=1&pid=ImgDetMain")),
             Text("bakso special"),
-            Text("DESKRIPSI"),
+            Text("bakso paling enak sejagat raya"),
           ],
         ));
   }

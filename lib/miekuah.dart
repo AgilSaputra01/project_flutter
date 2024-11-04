@@ -13,7 +13,8 @@ class Miekuah extends StatelessWidget {
                 image: NetworkImage(
                     "https://th.bing.com/th/id/OIP.WrbaUwZxCKAD-jhrhSx12wHaHa?rs=1&pid=ImgDetMain")),
             Text("mie kuah special"),
-            Text("DESKRIPSI"),
+            Text(
+                "mie kuah dengan banyak toping di jamin paling enak sejagat raya"),
           ],
         ));
   }

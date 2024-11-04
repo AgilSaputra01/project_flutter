@@ -13,7 +13,8 @@ class Ikan extends StatelessWidget {
                 image: NetworkImage(
                     "https://th.bing.com/th/id/OIP.dsNQU1EYV80RcXocfKYqnAAAAA?w=317&h=180&c=7&r=0&o=5&pid=1.7")),
             Text("ikan bakar special"),
-            Text("DESKRIPSI"),
+            Text(
+                "ikan bakar yang masih fresh dijamin ppaling enak sejagat raya"),
           ],
         ));
   }

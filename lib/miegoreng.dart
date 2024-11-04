@@ -13,7 +13,7 @@ class Miegoreng extends StatelessWidget {
                 image: NetworkImage(
                     "https://th.bing.com/th/id/OIP.ONJI0I5HjZ3iRv90PKSLJgHaE8?rs=1&pid=ImgDetMain")),
             Text("mie goreng special"),
-            Text("DESKRIPSI"),
+            Text("mie goreng paling enak sejagat rayaa"),
           ],
         ));
   }

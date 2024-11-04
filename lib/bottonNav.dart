@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:helloworld/home.dart';
 import 'package:helloworld/profile.dart';
+import 'package:helloworld/pesanan.dart';
 
 class BottonNav extends StatefulWidget {
   const BottonNav({Key? key}) : super(key: key);
@@ -14,6 +15,7 @@ class _BottonNavState extends State<BottonNav> {
   static const List<Widget> _widgetoptions = <Widget>[
     MyHome(),
     Profile(),
+    DaftarPesananScreen(),
   ];
 
   void onTaped(int index) {
@@ -29,6 +31,7 @@ class _BottonNavState extends State<BottonNav> {
           items: <BottomNavigationBarItem>[
             BottomNavigationBarItem(icon: Icon(Icons.home), label: "Home"),
             BottomNavigationBarItem(icon: Icon(Icons.person), label: "Profile"),
+            BottomNavigationBarItem(icon: Icon(Icons.badge), label: "Pesanan"),
           ],
           currentIndex: _selectedIndex,
           selectedItemColor: Colors.green,

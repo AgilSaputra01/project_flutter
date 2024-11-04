@@ -13,7 +13,7 @@ class Dimsum extends StatelessWidget {
                 image: NetworkImage(
                     "https://th.bing.com/th/id/OIP.huLWj8mwz-URXAS7-L6vWwHaE7?w=1280&h=853&rs=1&pid=ImgDetMain")),
             Text("dimsum special"),
-            Text("DESKRIPSI"),
+            Text("dimsum paling enak sejagat raya dengan ayam yang berlimpah"),
           ],
         ));
   }
