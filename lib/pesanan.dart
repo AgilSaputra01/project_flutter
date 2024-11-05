@@ -27,7 +27,6 @@ class DaftarPesananScreen extends StatelessWidget {
         itemBuilder: (context, index) {
           return ListTile(
             title: Text(pesanan[index]),
-            trailing: const Icon(Icons.arrow_forward),
             onTap: () {
               // Aksi ketika item ditekan
               ScaffoldMessenger.of(context).showSnackBar(
